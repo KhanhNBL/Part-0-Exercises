@@ -1,0 +1,16 @@
+1>
+- browser => server: sending a request https://studies.cs.helsinki.fi/exampleapp/notes with method GET
+- server => browser: sending back a text/html file 
+2> 
+- browser => server: sending a request for css of the page https://studies.cs.helsinki.fi/exampleapp/main.css with method GET
+- server => browser: sending back a text/css file
+3> 
+- browser => server: sending a request https://studies.cs.helsinki.fi/exampleapp/main.js with method GET
+- server => browser: sending back a application/javascript file
+4> 
+- browser executing JS code => request JSON data from server 
+5> 
+- browser => server: sending a request https://studies.cs.helsinki.fi/exampleapp/data.json with method GET
+- server => browser: sending back a list of json file look application/json
+6> 
+- if put some value inside input area and click submit button => sending a request with a link https://studies.cs.helsinki.fi/exampleapp/new_note with POST method => status code 302(which mean redirect to another page, in this case it return back to notes page) => it load a whole page again follow the order above => adding value inside into a list by JS logical wrote before.
