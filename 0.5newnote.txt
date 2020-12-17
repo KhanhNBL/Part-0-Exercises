@@ -11,6 +11,4 @@
 - browser => server: sending a request https://studies.cs.helsinki.fi/exampleapp/data.json with GET method for JSON data
 - server => browser: sending back an application/json file
 5> 
-- if type input into a bar and click "save" button => sending a request to server by a link https://studies.cs.helsinki.fi/exampleapp/new_note_spa with POST method 
-- server => browser: returning an application/json file
-- by render file it append a new value into a "ul" list and display for user 
+- It look exactly like the traditional website page but instead of status code "3xx" it display "2xx" which mean it is not redirect to another page and just only load the value has been inputed. Meanwhile, old-school web page load a whole page whenever we make some change in it and SPA doesnt. 
